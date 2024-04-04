@@ -18,7 +18,7 @@ function Box({width, height, color, removeSelf}) {
     }
 
     return (
-    <div>
+    <div className="Box">
         <div style={style}></div>
         <button onClick={removeSelf}>X</button>
     </div>);
